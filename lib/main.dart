@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutterui/ui_screens/auth_one_screen.dart';
 
-main() => runApp(MyApp());
+import 'authentication_screens/login_one_screen.dart';
+
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
@@ -9,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter UI',
-      home: AuthOneScreen(),
+      home: LoginOneScreen(),
     );
   }
 }
